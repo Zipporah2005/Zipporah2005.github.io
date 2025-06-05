@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Zipporah Meesala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f111a;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .left-section {
+            flex: 1 1 50%;
+        }
+        .left-section h2 {
+            font-size: 22px;
+            color: #ffffff;
+        }
+        .left-section h1 {
+            font-size: 48px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .left-section h3 {
+            font-size: 26px;
+            color: #0ef;
+        }
+        .left-section p {
+            max-width: 500px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        .social-icons a {
+            color: #0ef;
+            margin: 10px 10px 0 0;
+            font-size: 20px;
+            display: inline-block;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #0ef;
+            color: #000;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 0 20px #0ef;
+        }
+        .right-section {
+            flex: 1 1 40%;
+            text-align: center;
+            position: relative;
+        }
+        .right-section img {
+            width: 300px;
+            border-radius: 25% 25% 25% 25%;
+            border: 5px solid #0ef;
+            box-shadow: 0 0 40px #0ef;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 100px;
+            background: #0f111a;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar a {
+            color: #fff;
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .navbar a:hover,
+        .navbar a.active {
+            color: #0ef;
+        }
+        .brand {
+            font-weight: bold;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">Portfolio.</div>
+        <div>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-section">
+            <h2>Hello, It's Me</h2>
+            <h1>Zipporah Meesala</h1>
+            <h3>And I'm a <span style="color:#0ef">Student</span></h3>
+            <p>Pursuing my B.tech in PVPSIT in the stream of Electrical and Electronics Engineering</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/meesala.zipporah/allactivity" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/zipporah-meesala-a1826b34b"_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+           <div class="right-section">
+           <img src="zipporah.jpeg" alt="Profile Image">
+           </div>
+    </div>
+        
+</body>
+</html>
